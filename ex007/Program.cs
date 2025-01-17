@@ -4,19 +4,19 @@
     {
         static void Main(string[] args)
         {
-            Console.Write("Digite a primeira nota: ");
+            Console.Write("Digite a nota do 1° semestre: ");
             double nota1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("--------------------------------------------------");
 
-            Console.Write("Digite a segunda nota: ");
+            Console.Write("Digite a nota do 2° semestre: ");
             double nota2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("--------------------------------------------------");
 
-            Console.Write("Digite a terceira nota: ");
+            Console.Write("Digite a nota do 3° semestre: ");
             double nota3 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("--------------------------------------------------");
 
-            Console.Write("Digite a quarta nota: ");
+            Console.Write("Digite a nota do 4° semestre: ");
             double nota4 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("--------------------------------------------------");
 
