@@ -4,9 +4,11 @@
     {
         static void Main(string[] args)
         {
-            double nota_final = 30;
-            string resultado;
+            Console.Write("Digite a nota final: ");
+            double nota_final = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("--------------------------------------------------");
 
+            string resultado;
             if (nota_final >= 60)
             {
                 if (nota_final >= 90)
@@ -29,7 +31,7 @@
                     resultado = "reprovado..."; 
                 }
             }
-            Console.WriteLine("Com a nota de {0}, aluno está {1}", 
+            Console.WriteLine("Com a nota de {0}, o aluno está {1}", 
                 nota_final ,resultado);
         }
     }
