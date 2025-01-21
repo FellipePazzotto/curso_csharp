@@ -19,13 +19,13 @@
             if (ladoA < ladoB + ladoC && ladoB < ladoC + ladoA && ladoC < ladoA + ladoB)
             {
                 Console.Write("Essas medidas formam um triângulo ");
-                if (ladoA == ladoB && ladoB == ladoC && ladoC == ladoA)
-                {
-                    Console.WriteLine("equilátero!!");
-                }
-                else if (ladoA != ladoB && ladoB != ladoC && ladoC != ladoA)
+                if ((ladoA != ladoB && ladoB != ladoC && ladoC != ladoA))
                 {
                     Console.WriteLine("escaleno!!");
+                }
+                else if (ladoA == ladoB && ladoB == ladoC)
+                {
+                    Console.WriteLine("equilátero!!");
                 }
                 else
                 {
